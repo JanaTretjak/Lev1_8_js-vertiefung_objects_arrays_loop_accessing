@@ -37,3 +37,5 @@ studentData.forEach(elt => document.write(`${elt.name} <br>`))
 studentData.forEach(elt => document.write(`${elt.coop} <br>`))
 studentData.forEach(elt => document.write(`${elt.address.city} <br>`))
 studentData.forEach(elt => document.write(`${elt.emails.join(", ")} <br>`))
+
+studentData.forEach(elt => console.log(elt.name, elt.coop, elt.address.city, elt.emails))
